@@ -22,7 +22,6 @@ p{
         background-position: center; 
         justify-content: center;
         align-items: center;
-        border-radius: 3px;
         margin: 50px 80px 0 80px;
     }
 
@@ -89,7 +88,6 @@ p{
     justify-content: center;
     align-items: center;
     margin: 50px 80px 0 80px;
-    border-radius: 3px;
     gap: 50px;
 }
 
@@ -106,6 +104,7 @@ p{
 .party-quote P{
     font-weight: 350;
     font-size: small;
+    color: white;
 }
 
 .year-image img {
