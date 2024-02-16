@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  
+}
+p{
+    color: rgb(86, 86, 84)
+}
+
+
+.header{
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url(resources/Banner\ Image.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center; 
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        margin: 50px 80px 0 80px;
+    }
+
+.headline h4{
+    font-weight: 400;
+    font-size: xx-large;
+   
+}
+.headline h1{
+    font-size: 350%;
+}
+
+.headline{
+    position: relative;
+    color: white;
+    position: relative;
+    text-align: center;
+    padding: 120px;
+}
+
+
+
+
+
+
+/* Offer section-----------------------------------------------------------------------
+---------------------------------------------------------------------------- */
+.offer-section{
+    margin: 100px;
+}
+.offer{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.offer h1{
+    font-size: 70px;
+     color: red;
+}
+.offer p{
+    color: red;
+    font-weight: bold;
+}
+.offer h2{
+    font-size: 35px;
+}
+.offer img{
+    height: 400px;
+    padding-top: 40px;
+
+}
+ 
+
+
+
+/* Midnight party banner section----------------------------------------- */
+
+.party-banner{
+    display: flex;
+    background: linear-gradient(to right, rgb(0, 0, 0,1), rgb(0, 0, 0,0.0)), url(resources/Vectorrr.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 80px 0 80px;
+    border-radius: 3px;
+    gap: 50px;
+}
+
+.party-quote{
+       position: relative;
+       color: white;
+       left: 50px;
+}
+
+.party-quote h1{
+    font-weight: bold;
+    font-size: 60px;
+}
+.party-quote P{
+    font-weight: 350;
+    font-size: small;
+}
+
+.year-image img {
+    position: relative;
+    height: 330px;
+    top: 20px;
+    right: 70px;
+    padding: 40px;
+    
+} 
+
+
+
+/* Address section-----------------------------------------------------------------------------
+----------------------------------------------------------------------------------- */
+
+.place-section{
+    background: linear-gradient(to bottom, rgb(246, 219, 219),#efdbdb, white);
+    text-align: center;
+    margin: 50px 80px 0 80px;
+    padding: 30px;
+    border-radius: 3px;
+}
+.place-section button{
+    background-color: red;
+    border-radius: 2px;
+    padding: 5px;
+    color: white;
+    border: none;
+    margin-top: 5px;
+    font-size: 10px;
+    font-weight: bold;
+}
+.red{
+    color: red;
+
+}
+
+
+/* middle offer section ---------------------- */
+.upcoming-offer-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 80px 0 80px;
+    gap: 80px;
+}
+.message{
+    padding-right: 100px;
+    
+}
+.message h4{
+    color: red;
+}
+.message p{
+    font-size: 90%;
+
+}
+.offer-img img{
+    position: relative;
+    left: -130px;
+    padding: 20px;
+    height: 170px;
+    border: 7px solid red;
+    border-radius: 50%;
+
+}
+
+.message-2 h1{
+     color: red;
+}
+
+.message-2 img{
+    height: 70px;
+    padding-top: 20px;
+}
+
+
+/* Discount section---------------------------------------- */
+.holidays{
+    color: red;
+}
+.discount-section{
+    margin: 50px 80px 0 80px;
+}
+.dis-section h1{
+    font-size: 50px;
+}
+.dis-section{
+    text-align: center;
+}
+.dis-section p{
+    margin: 0 200px 0 200px;
+}
+.grid-1{
+   display: flex;
+   justify-content: end;
+
+}
+.girl img{
+   position: relative;
+   height: 200px;
+   top: 58px;
+
+}
+
+.discount-offer img{
+    position: relative;
+    height: 100px;
+    right: -60px;
+    top: 50px;
+    z-index: 1;
+    
+}
+.box img{
+      position: relative;
+      height: 250px;
+      bottom: -100px;
+      right: 250px;
+      z-index: 1;
+ 
+}
+
+.lowerbackground img{
+    position: relative;
+    height: 191.5px;
+}
+
+
+/* Portfolio section */
+
+
+
+.portfolio-section{
+    margin: 50px 80px 0 80px;
+}
+
+.portfolio-section h4{
+    color: red;
+}
+.portfolio-section p{
+    margin-right: 300px;
+}
+.portfolio-grid{
+     display: grid;
+     row-gap: 8px;;
+     grid-template-columns: 370px 370px 370px;
+     justify-content: center;
+     margin-top: 20px;
+
+}
+.portfolio-grid img{
+    height: 380px;
+}
+
+
+/* -------------------------------------------------------------------------------- */
+.subcribe-section{
+    background-color: rgb(255, 231, 228);
+    margin: 50px 80px 50px 80px;
+    border-radius: 3px;
+    text-align: center;
+}
+.news-message{
+    padding: 40px 180px 40px 180px;
+    
+
+}
+
+
+.news-message img{
+    height: 60px;
+}
+.subscribe input{
+    padding: 8px;
+    border-radius: 15px;
+    border: none;
+}
+.subscribe button{
+    position: relative;
+    padding: 8px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    right: 20px;
+    margin-top: 20px;
+    background-color: red;
+    color: white;
+}
+/* Footer section--------------------------------------------------- */
+footer{
+    background-color: black;
+    padding: 50px 50px 0 50px;
+}
+footer h6{
+    color: white;
+}
+.address{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px 20px 0;
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+}
+
+
+.call img{
+    height: 15px;
+    padding-right: 5px;
+    align-items: center;
+
+
+}
+.site p{
+    color: white;
+}
+.website img{
+    height: 15px;
+    padding-right: 5px;
+}
+.social-icon img{
+    height: 30px;
+    padding: 17px;
+}
+.last-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 20px 0;
+}
